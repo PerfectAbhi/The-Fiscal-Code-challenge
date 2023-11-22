@@ -93,6 +93,8 @@ public class Challenge {
         }
         return j;
     }
-
-
+    public static void main(String[] args) {
+        String result = fiscalCode("Marie", "Curie", "F", "7/11/1867");
+        System.out.println(result);
+    }
 }
